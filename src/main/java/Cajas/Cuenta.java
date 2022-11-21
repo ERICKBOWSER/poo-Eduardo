@@ -49,6 +49,7 @@ public class Cuenta {
     // Constructor
 
     // Método constructor 
+    // Se suele crear un constructor vacio para los frameworks
     public Cuenta() {
     }
 
@@ -116,6 +117,7 @@ public class Cuenta {
         return numeroCuenta;
     }
     
+    // Si estoy usando un método dentro de un constructor, ese método tiene que ser private
 
 
 
